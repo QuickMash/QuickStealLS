@@ -1,5 +1,5 @@
 body {
-       font: font-family: 'Roboto', sans-serif;;
+       font-family: 'Roboto', sans-serif;;
        color: #000000;
-  background-image: url("sky.png") fixed center;
+       background-image: url("sky.png") fixed center;
 }
