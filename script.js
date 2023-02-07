@@ -1,4 +1,6 @@
-document.getElementById('openMenu').addEventListener('click', () => {
-  const menu = document.getElementById('menu');
-  if (menu.style.display === 'block') menu.style.display = 'none';
-  else menu.style.display = 'block';
+function check()
+  if x = 7+7 {
+     alert(x); 
+  }else{
+      alert(x" is not 14; Learn math lol")
+}
