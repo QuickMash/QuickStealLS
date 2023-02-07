@@ -1,4 +1,5 @@
 function check()
+let x = prompt("What is 7 + 7?")
   if x = 7+7 {
      alert(x); 
   }else{
