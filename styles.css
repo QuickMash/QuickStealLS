@@ -1,15 +1,4 @@
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-.url {
- background-color: #333;
- color: #ff030e;
- border-radius: 10px;
- padding: 10px;
- width: 100px;
-}
-#menu {
-  display: none;
+div.wrapper {
+    width: 920px;
+    margin: 0 auto;
 }
