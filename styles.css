@@ -1,4 +1,8 @@
 div.wrapper {
+    background-color: #333;
     width: 920px;
     margin: 0 auto;
+}
+   body {
+  background-image: url("sky.png");
 }
