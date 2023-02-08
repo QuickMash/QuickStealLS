@@ -12,3 +12,6 @@ body {
        color: #000000;
        background-image: url("https://github.com/QuickMash/QuickStealLS/blob/5f71a2ecfa65b77dc40428a692a8761dff592068/sky.png") fixed center;
 }
+  max-width: 500px;
+  margin: auto;
+}
