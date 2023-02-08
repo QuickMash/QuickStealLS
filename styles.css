@@ -1,11 +1,7 @@
-div.spacer1 {
-       width: 20%;
+div.padding {
+       width: 10px;
        
 }
-.page {
-       align: left;
-       color:#000000
-}       
 body {
        line-hight: 150%;
        font-family: 'Roboto', sans-serif;;
@@ -17,3 +13,6 @@ body {
 .content {
   max-width: 500px;
   margin: auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
