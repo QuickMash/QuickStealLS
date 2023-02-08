@@ -10,7 +10,8 @@ body {
        line-hight: 150%;
        font-family: 'Roboto', sans-serif;;
        color: #000000;
-       background-image: url("https://th.bing.com/th/id/OIP.QejQ9jK24ZyItbczpi6XtAHaDt?w=342&h=175&c=7&r=0&o=5&pid=1.7") fixed center;
+       background-image: url("https://th.bing.com/th/id/OIP.QejQ9jK24ZyItbczpi6XtAHaDt?w=342&h=175&c=7&r=0&o=5&pid=1.7");
+       background-repeat: no;
 }
   max-width: 500px;
   margin: auto;
