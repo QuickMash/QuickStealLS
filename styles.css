@@ -1,5 +1,6 @@
 div.padding {
        width: 10px;
+       visibility: hidden;
        
 }
 body {
