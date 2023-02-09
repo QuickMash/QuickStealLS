@@ -1,17 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.phptutorial.net/app/css/style.css">
+    <title>Login</title>
+</head>
 <body>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <div class="loginBox">
-    <h1>Staff Login Portal</h1>
-    <p>QuickStealLS Staff Only</h1>
-  <label for="name">Full Name</label>
-  <input type="text" name="name" placeholder="Joe Timmy" size="28" class="name" id="name" required>
-  <label for="login"></label>
-  <input type="text" name="login" placeholder="ex: 12345678" size="28" class="login" id="login" required>
-  <button type="submit" name="submit">Submit</button>
-  </div>
-<footer>
-  <p><strong>WARNING</strong>: your presence is shared! <strong>Do not login if you are not staff</strong>. Your IP will be banned on <strong>QuickStealLS</strong> and <strong>This website</strong.</p>
-</footer>
+<main>
+    <form action="login.php" method="post">
+        <h1>Login</h1>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <section>
+            <button type="submit">Login</button>
+            <a href="register.php">Register</a>
+        </section>
+    </form>
+</main>
 </body>
+</html>
+Code language: HTML, XML (xml)
+Like the register.php page, you can reuse the header.php and footer.php files from the src/inc folder and use the view() function to load them to the login.php page as follows:
+
+<?php
+
+require __DIR__ . '/../src/bootstrap.php';
+?>
+
+<?php view('header', ['title' => 'Login']) ?>
+<main>
+    <form action="login.php" method="post">
+        <h1>Login</h1>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <section>
+            <button type="submit">Login</button>
+            <a href="register.php">Register</a>
+        </section>
+    </form>
+</main>
+<?php view('footer') ?>
