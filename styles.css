@@ -4,6 +4,8 @@ div.padding {
        
 }
 .accent {
+ width: 30px;      
+ padding: 1%;
  background-color: #111;      
 }
 body {
