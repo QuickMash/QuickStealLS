@@ -3,6 +3,9 @@ div.padding {
        visibility: hidden;
        
 }
+.accent {
+ background-color: #111;      
+}
 body {
        line-hight: 150%;
        font-family: 'Roboto', sans-serif;;
