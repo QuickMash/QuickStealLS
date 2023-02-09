@@ -4,6 +4,18 @@ div.padding {
        visibility: hidden;
        
 }
+button {
+			color: #ffffff;
+			background-color: #2dc83f;
+			font-size: 19px;
+			border: 1px solid #1b4412;
+			padding: 15px 50px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #ffffff;
+			background-color: #35a73c;
+		}
 .accent {
  width: 100px;      
  padding: 1%;
