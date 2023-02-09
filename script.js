@@ -1,7 +1,8 @@
-function check()
-let x = prompt("What is 7 + 7?")
-  if x = 7+7 {
-     alert(x); 
-  }else{
-      alert(x" is not 14; Learn math lol")
+function load()
+console.info("Website Loading!")
+console.info("------------------------------")
+console.warn("This terminal is for debug use only!");
+console.warn("DO NOT use any hacky meathods to start the server!");
+console.info("------------------------------")
+console.info("BTW QuickMash is cool")
 }
