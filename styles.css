@@ -1,12 +1,14 @@
 div.padding {
-       width: 10px;
+       width: 1px;
+       highth: 10px;
        visibility: hidden;
        
 }
 .accent {
  width: 100px;      
  padding: 1%;
- background-color: #111;      
+ background-color: #111; 
+       color: #ffffff;
 }
 body {
        line-hight: 150%;
