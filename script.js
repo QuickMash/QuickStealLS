@@ -1,3 +1,6 @@
 function mouse() {
-  docume
+  var mode = document.getElementById("myCheck");
+  if (myCheck = true) {
+ alert("It Worked");
+}
 }
