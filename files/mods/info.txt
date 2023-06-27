@@ -1,0 +1,4 @@
+The directory this file is in is a description file and should not be edited
+-----------
+QUICKMASH
+-----------
